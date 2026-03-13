@@ -125,3 +125,64 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Media Queries for Responsive Design */
+
+@media (max-width: 1200px) {
+  /* Adjustments for large screens */
+  #container {
+    max-width: 800px;
+    padding: 25px;
+  }
+
+  h1 {
+    font-size: 1.1cm;
+    padding: 25px;
+  }
+}
+
+@media (max-width: 992px) {
+  /* Adjustments for medium screens */
+  #container {
+    max-width: 700px;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1cm;
+    padding: 20px;
+  }
+
+  .section-row img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Adjustments for small screens */
+  #container {
+    max-width: 100%;
+    margin: 15px;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 0.9cm;
+    padding: 15px;
+    border-left: none;
+    border-right: none;
+  }
+
+  .section-row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .section-row img {
+    width: 150px;
+  }
+
+  #sidebar {
+    padding: 10px;
+  }
+}
+
