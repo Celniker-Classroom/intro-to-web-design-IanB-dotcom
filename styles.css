@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  transition: all 0.3s ease;
 }
 
 body {
@@ -8,7 +7,6 @@ body {
   color: #2a2a2a;
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  transition: all 0.3s ease;
 }
 
 h1 {
@@ -54,7 +52,6 @@ h3 {
   padding: 30px;
   border: 2px solid #b0a8b0;
   background-color: #f8f4fb;
-  color: #2a2a2a;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
@@ -72,20 +69,6 @@ img:hover {
   box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
 
-a:link {
-  color: #441174;
-  text-decoration: none;
-}
-
-a:visited {
-  color: #4d0a8d;
-}
-
-a:hover {
-  color: #FF6600;
-  text-decoration: underline;
-}
-
 .section-row {
   margin-bottom: 25px;
   transition: background 0.3s;
@@ -100,7 +83,6 @@ a:hover {
   height: auto;
   border: 1px solid #b0a8b0;
   border-radius: 8px;
-  object-fit: cover;
   float: right;
   margin-left: 20px;
 }
@@ -203,7 +185,6 @@ a:hover {
 
   .section-row img {
     float: none;
-    margin-left: 0;
     width: 150px;
     display: block;
     margin: 0 auto 20px;
